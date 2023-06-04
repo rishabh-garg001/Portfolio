@@ -41,10 +41,23 @@
 #btncv{
   background: transparent;
   border: 2px solid black;
+  
   font-weight: bold;
   letter-spacing: 2px;
   border-radius: 5px;
+  
+  width: 170px;
+  
+  
+
+  margin-left: 50px;
+  text-align: center;
+  transition: 0.5s ease;
   cursor: pointer;
+}
+#btncv:hover{
+  background-color:black ;
+  color: #ff9900;
 }
 @media screen and (max-width:991px){
   #btncv{
@@ -116,8 +129,8 @@
   letter-spacing: 2px;
 }
 #btn1{
-  width: 150px;
-  height: 30px;
+  width: 500px;
+  height: 50px;
   letter-spacing: 3px;
   border-radius: 5px;
   color: #ff9900;
@@ -254,6 +267,7 @@
 #services .card{
   transition: 0.5s ease;
   cursor: pointer;
+  
 }
 #services .card:hover{
   background-color: #ff9900;
@@ -263,11 +277,11 @@
 }
 #services .card i{
   font-size: 42px;
-  margin-left: 10px;
+  margin-left: 120px;
 }
 #services .card h2{
   font-size: 22px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 /* @media screen and (max-width:767px){
   #services{
@@ -300,13 +314,23 @@
 }
 #resume h3 i{
   color: #ff9900;
+  
 }
 #resume h3{
   color: white;
   border-bottom: 2px solid #ff9900;
-  width: 170px;
+  width: 220px;
+  
   margin-top: 30px;
 }
+
+#resume h3 span{
+  margin-left: 10px;
+}
+#resume i span{
+  margin-left: 10px;
+}
+
 #resume h2{
   color: white;
   margin-top: 20px;
@@ -354,7 +378,7 @@
 #portfolio .card:hover{
   transform: translateY(-10px);
 }
-@media screen and (max-width:770px){
+/* @media screen and (max-width:770px){
   #portfolio{
       height: 330vh;
   }
@@ -383,7 +407,7 @@
   #portfolio h1{
       padding-top: 100px;
   }
-}
+} */
 /* portfolio */
 
 
