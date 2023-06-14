@@ -105,7 +105,7 @@
   color: #ff9900;
   font-weight: bold;
 }
-/* .changecontent::after{
+ .changecontent::after{
   content: ' ';
   color: #ff9900;
   font-weight: bold;
@@ -122,7 +122,7 @@
   60%{content: "YouTuber";}
   80%{content: "iOS App Developer";}
   100%{content: "Bootstrap Web Design";}
-}*/
+}
 .home .content p{
   color: white;
   font-weight: bold;
@@ -146,7 +146,7 @@
   background-color: #ff9900;
   color: black;
 }
-/* @media screen and (max-width:844px){
+ @media screen and (max-width:844px){
   .home-section{
       height: 146vh;
       background: black;
@@ -170,7 +170,7 @@
   .home-section{
       height: 110vh;
   }
-} */
+} 
 /* home content */
 /* home section */
 
@@ -227,7 +227,7 @@
 #btncv2:hover{
   background-color: #ff9900;
 }
-/* @media screen and (max-width:987px){
+ @media screen and (max-width:987px){
   #about p{
       font-size: 10px;
   }
@@ -244,7 +244,7 @@
   #about{
       height: 120vh;
   }
-} */
+} 
 /* about */
 
 
@@ -283,11 +283,11 @@
   font-size: 22px;
   margin-left: 20px;
 }
-/* @media screen and (max-width:767px){
+ @media screen and (max-width:767px){
   #services{
       height: 200vh;
   }
-} */
+} 
 /* services */
 
 .hr{
@@ -378,7 +378,7 @@
 #portfolio .card:hover{
   transform: translateY(-10px);
 }
-/* @media screen and (max-width:770px){
+ @media screen and (max-width:770px){
   #portfolio{
       height: 330vh;
   }
@@ -407,7 +407,7 @@
   #portfolio h1{
       padding-top: 100px;
   }
-} */
+} 
 /* portfolio */
 
 
