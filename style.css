@@ -191,7 +191,12 @@
   background-color: #ff9900;
   border: 2px solid black;
 }
+#about .content{
+  padding-left: 20%;
+}
 #about h3{
+  /* align-items: center; */
+  /* padding-left: 12%; */
   color: white;
   border-bottom: 2px solid #ff9900;
   width: 150px;
@@ -201,14 +206,14 @@
 }
 #about p{
   color: white;
-  font-size: 15px;
+  font-size: 30px;
 }
 #about h2{
   color: white;
-  font-size: 17px;
+  font-size: 25px;
 }
 #about h2 span{
-  font-size: 15px;
+  font-size: 25px;
   color: #ff9900;
   margin-left: 10px;
   margin-top: 10px;
@@ -257,6 +262,7 @@
   width: 100%;
   height: 100vh;
   background-color: black;
+  padding-left: 20%;
 }
 #services h3{
   width: 130px;
@@ -294,6 +300,7 @@
   width: 100%;
   height: 1px;
   background-color: #ff9900;
+  align-items: center;
 }
 
 
